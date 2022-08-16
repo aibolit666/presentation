@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="dist/reset.css" />
+	<link rel="stylesheet" href="dist/reveal.css" />
+	<link rel="stylesheet" href="dist/theme/black.css" />
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css" />
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)">
+				<h2>Here are some of the points we will cover:</h2>
+				<li data-id="code-title">What is TypeScript?</li>
+				<li data-id="code-title">
+					What are types,
+					and how do they work in TS?
+				</li>
+				<li data-id="code-title">Problems in
+					modern TypeScript.</li>
+				<li data-id="code-title">
+					JavaScript or TypeScript:
+					which one to choose?
+				</li>
+			</section>
+			<section data-background="https://media.proglib.io/posts/2020/01/19/740ca305bf19a984150dc94085a1cb28.webp">
+			</section>
+			<section data-background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)">
+				<h2 data-id="code-title">
+					Three reasons for adding static typing to JavaScript
+				</h2>
+				<ol>
+					<li data-id="code-title">
+						You can avoid mysterious errors like the classic <b>'undefined' is
+							not a function</b>
+					</li>
+					<li data-id="code-title">
+						It is easier to refactor code without breaking it
+					</li>
+					<li data-id="code-title">
+						Navigating complex large-scale systems is no longer scary
+					</li>
+				</ol>
+			</section>
+			<section data-background-size="95%" data-background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)"
+				data-background="https://discover.egafutura.com/wp-content/uploads/2022/03/como-usar-typescript-con-salesforce-parte-1-e29881efb88f-1.png">
+			</section>
+			<section data-background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)">
+				<h2 data-id="code-title">TypeScript benefits</h2>
+				<li data-id="code-title">Better integration with text editors</li>
+				<li data-id="code-title">Types help self document the code</li>
+				<li data-id="code-title">Catches bugs before compilation</li>
+				<li data-id="code-title">Can compile down to a target<br> ES version</li>
+				<li data-id="code-title">
+					Get early access to future<br> features of JS
+				</li>
+				<li data-id="code-title">It is faster to refactor</li>
+			</section>
+			<section data-background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)">
+				<h2 data-id="code-title">
+					Reasons why you should choose TypeScript over JavaScript
+				</h2>
+				<ol>
+					<li data-id="code-title">TypeScript is more reliable</li>
+					<li data-id="code-title">TypeScript is more explicit</li>
+					<li data-id="code-title">
+						TypeScript and JavaScript<br> are practically interchangeable,<br> so why
+						not?
+					</li>
+				</ol>
+			</section>
+			<section data-background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)" data-background-size="55%"
+				data-background="https://wallabyjs.com/assets/img/blog-configure-typescript.jpg"></section>
+			<section data-background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)">
+				<h3 data-id="code-title">TypeScript drawbacks</h3>
+				<li>Types are only checked at compile time</li>
+				<li>Unit tests are no longer instant</li>
+				<li>Non-TS libraries require types</li>
+				<li>Does not reduce bug density</li>
+				<li>Compilation time is increased</li>
+				<li>Build pipelines take longer</li>
+				<li>More code needs to be written</li>
+			</section>
+			<section data-background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)" data-background-size="80%"
+				data-background="https://www.simplilearn.com/ice9/free_resources_article_thumb/typescript_vs_javascript.jpg">
+			</section>
+			<section data-background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)">JavaScript or TypeScript: which
+				one to choose?</section>
+			<section data-background-size="50%"
+				data-background="https://devs.lol/uploads/2021/12/meme-dev-humor-for-any-emergency-in-typescript-222.jpg">
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+		});
+	</script>
+</body>
+
+</html>
